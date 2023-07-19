@@ -1,0 +1,435 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #016cc7;
+    color: #fff;
+    font-family: 'Inter';
+    text-align: center;
+
+}
+
+.heading_hero_Section {
+    padding: 8rem 4rem 18rem 4rem;
+
+
+}
+
+.heading_hero_Section h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 1rem;
+
+}
+
+.heading_hero_Section h2 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.heading_hero_Section span {
+    color: #fff;
+    font-size: 1.6rem;
+
+
+}
+
+.hero_section_btn {
+    margin-top: 8rem;
+}
+
+.hero_section_btn button,
+.early_bird_part_btn button {
+    padding: 1.6rem 4rem;
+    background-color: #dd5138;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: bold;
+    transition: color, 1s;
+}
+
+.hero_section_btn button:hover {
+    color: #000;
+}
+
+.rocket_icon img {
+    display: none;
+}
+
+@media screen and (min-width:380px) {
+    .rocket_icon img {
+        display: inline-block;
+    }
+
+    .hero_section {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:780px) {
+    .hero_section {
+        flex-direction: row;
+    }
+}
+
+/* about us section */
+.about_Section,
+.about_Section_icon_header,
+.profile_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+
+}
+
+.about_Section_header h1,
+.profile_Section_header h1,
+.event_schedule_header h1 {
+    font-size: 2.8rem;
+    font-weight: 350;
+    padding: 3rem;
+
+}
+
+.about_Section_icon_header {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about_Section_icon_header h1 {
+    font-size: 2.4rem;
+    font-weight: lighter;
+}
+
+.about_Section_icon_header p {
+    text-align: center;
+}
+
+.ticket_icon,
+.mic_icon,
+.global_icon {
+    font-size: 3rem;
+    color: #016cc7;
+    margin: 3.3rem;
+}
+
+@media screen and (min-width:780px) {
+    .about_section {
+        flex-direction: row;
+        display: inline-block;
+    }
+}
+
+/* profile card section */
+
+.profile_card1 ,
+.profile_section_responsive_card2
+.profile_card1{
+    padding: 2rem;
+    font-family: 'Dosis', sans-serif;
+    transition: all 0.500s;
+    margin-bottom: 3rem;
+    border: solid 4px #efefef;
+    max-width: 100%;
+}
+
+.profile_card1 img {
+    max-width: 40%;
+    border: solid 4px #efefef;
+    border-radius: 50%;
+}
+
+.profile_section {
+    margin: 2rem;
+}
+
+.profile_Section_icon_part_header {
+    text-align: center;
+}
+
+.profile_card1 h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: gray;
+    margin: 1rem;
+
+}
+
+.profile_card1 p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: lighter;
+}
+
+.baseline_icons_of_card1 {
+    padding: 2rem;
+    color: #016cc7;
+    font-size: 1.4rem;
+
+}
+
+.baseline_icons_of_card1 span {
+    margin: 1rem;
+}
+
+.profile_card1:hover {
+    box-shadow: 3px 3px 10px #ccc;
+    transform: translateY(-10px);
+}
+
+/* buy tickets section */
+
+.buy_tickets_Section {
+    background-color: #fcd93b;
+    font-family: 'Dosis', sans-serif;
+    padding: 2rem;
+    /* height: 30rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.header_of_tickets h1,
+.early_bird_part h1,
+.workshop_pass_part h1 {
+    padding-top: 3rem;
+    font-size: 2.6rem;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+}
+
+.early_bird_part h1 {
+    font-size: 1.8rem !important;
+    text-align: center;
+    padding: 1.5rem !important;
+
+}
+
+.dollar_sign {
+    font-size: 5em;
+    color: #dd5138;
+    text-align: center;
+}
+
+.early_bird_part_btn {
+    justify-content: center;
+    display: flex;
+}
+
+.early_bird_part_btn button {
+    text-transform: uppercase;
+    padding: 1.8rem 3rem !important;
+    font-size: 1.4rem;
+}
+
+.early_bird_part_btn button:hover {
+    color: #000;
+}
+
+.discription {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+/* event section */
+.event_schedule,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.event_schedule_header {
+    text-transform: capitalize;
+}
+
+.event_Section_Card1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.event_Section_card1_icon1 img {
+    height: 50%;
+    margin-left: 8rem;
+
+}
+
+.event_schedule .discription_about {
+    height: 10%;
+    font-size: 1.4rem;
+    position: relative;
+    left: -9rem;
+    line-height: 2rem;
+    font-weight: 400;
+    width: 36rem;
+}
+
+@media screen and (min-width:380px) {
+    .event_schedule .discription_about {
+        width: 30rem;
+
+    }
+
+    @media screen and (min-width:780px) {
+        .event_schedule 
+         {
+            flex-direction: row;
+        }
+        .event_schedule_header{
+            position: relative;
+        }
+    }
+}
+
+/* .discription_about h1 ,h2{
+    display: block;
+    
+} */
+
+/* footer section */
+
+footer {
+    background-color: #404142;
+    padding: 2rem;
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-family: Helvetica Neue;
+}
+
+.footer_form_section h1 {
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+footer i {
+    margin: 1rem;
+}
+
+form {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+form input,
+#msg {
+    width: 42rem;
+    height: 100%;
+    padding: 1.6rem 1rem;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2.8rem;
+}
+
+form #msg {
+    border-radius: 2%;
+    border: none;
+    margin-top: 2rem;
+}
+
+form #send_btn {
+    float: right;
+    background-color: yellow;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    font-weight: bold;
+}
+
+form #send_btn span {
+    margin-right: -0.6rem;
+}
+
+@media screen and (min-width:380px) {
+
+    form input,
+    #msg {
+        width: 40rem;
+
+    }
+}
+
+/* footer links and .discription section */
+.footer_discription_Secttion,
+.ending_icons_section {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 4rem;
+
+}
+
+.header_of_footer i {
+    font-weight: lighter;
+}
+
+.footer_twitter_feeds {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+
+}
+
+.footer_twitter_feeds .para1 {
+    margin: 2rem 0rem;
+    line-height: 2.2rem;
+}
+
+.footer_twitter_feeds a,
+.ending_icons_section a {
+    color: #016cc7;
+    transition: all 0.500s;
+}
+
+.footer_twitter_feeds a:hover {
+    color: #233141;
+}
+
+.ending_icons_section {
+    padding: 4rem;
+    background-color: #241f29;
+    color: #fff;
+    font-weight: 200;
+
+}
+
+.footer_ending_icons {
+    margin: 4rem;
+}
+
+.footer_ending_icons span {
+    color: yellow;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+@media screen and (min-width:380px) {
+    .footer_ending_icons span {
+        margin: 1rem;
+    }
+}
